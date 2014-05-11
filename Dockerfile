@@ -8,6 +8,7 @@
 FROM dockerfile/ubuntu
 
 # Install Ansible.
+RUN apt-get install -y python-dev python-pip
 RUN pip install ansible
 
 # Define mountable directories.
@@ -17,4 +18,4 @@ VOLUME ["/data"]
 WORKDIR /data
 
 # Define default command.
-CMD ["ansible-playbook"]
+CMD ["bash"]
