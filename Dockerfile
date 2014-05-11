@@ -5,10 +5,9 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM dockerfile/python
 
 # Install Ansible.
-RUN apt-get install -y python-dev python-pip
 RUN pip install ansible
 
 # Define mountable directories.

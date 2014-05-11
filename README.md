@@ -6,7 +6,7 @@ This repository contains **Dockerfile** of [Ansible](http://www.ansible.com/) fo
 
 ### Dependencies
 
-* [dockerfile/ubuntu](http://dockerfile.github.io/#/ubuntu)
+* [dockerfile/python](http://dockerfile.github.io/#/python)
 
 
 ### Installation
