@@ -1,7 +1,7 @@
 ## Ansible Dockerfile
 
 
-This repository contains **Dockerfile** of [Ansible](http://www.ansible.com/) for [Docker](https://www.docker.io/)'s [trusted build](https://index.docker.io/u/dockerfile/ansible/) published to the public [Docker Registry](https://index.docker.io/).
+This repository contains **Dockerfile** of [Ansible](http://www.ansible.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/ansible/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 
 ### Dependencies
@@ -11,9 +11,9 @@ This repository contains **Dockerfile** of [Ansible](http://www.ansible.com/) fo
 
 ### Installation
 
-1. Install [Docker](https://www.docker.io/).
+1. Install [Docker](https://www.docker.com/).
 
-2. Download [trusted build](https://index.docker.io/u/dockerfile/ansible/) from public [Docker Registry](https://index.docker.io/): `docker pull dockerfile/ansible`
+2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/ansible/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/ansible`
 
    (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/ansible" github.com/dockerfile/ansible`)
 
