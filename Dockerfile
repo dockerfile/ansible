@@ -10,9 +10,6 @@ FROM dockerfile/python
 # Install Ansible.
 RUN pip install ansible
 
-# Define mountable directories.
-VOLUME ["/data"]
-
 # Define working directory.
 WORKDIR /data
 
